@@ -1,0 +1,13 @@
+#Abdullah Alshubaili. Nov 22, 2015
+EXEC = lab7a
+FUNCS = lab7af
+OBJS = ${EXEC}.o ${FUNCS}.o
+HDRS = ${FUNCS}.h
+CFLAGS = —g -Wall
+CC = gcc
+
+all : ${EXEC}
+${EXEC} : ${OBJS}
+${OBJS} : ${HDRS}
+clean : 
+rm -rf ${EXEC} ${OBJS} core
