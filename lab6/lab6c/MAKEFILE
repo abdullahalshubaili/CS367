@@ -1,0 +1,21 @@
+#Abdullah Alshubaili. Nov 13, 2015
+
+# my variables
+EXEC = lab6c
+FUNCS = lab6cfuncs
+OBJS = ${EXEC}.o ${FUNCS}.o
+HDRS = ${FUNCS}.h
+
+# implicit rules variables
+CFLAGS = -g -Wall
+# LDFLAGS = 
+CC = gcc 
+
+all : ${EXEC}
+
+${EXEC} : ${OBJS}
+
+${OBJS} : ${HDRS}
+
+clean :
+        rm -rf ${EXEC} ${OBJS} core
