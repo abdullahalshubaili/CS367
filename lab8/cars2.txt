@@ -1,0 +1,10 @@
+10
+Geo 2008 49.99
+Viper 2005 99.99
+Mustang 2006 56.00
+Focus 2008 50.00
+Camry 1999 55.50
+GrandPrix 2011 AA
+Corvette 2010 120.00
+Acura 2011 115.00
+Civic 2001 39.98
